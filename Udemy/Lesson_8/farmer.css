@@ -102,3 +102,8 @@ a:link {
     top:-15px;
     left:-35px;
 }
+
+/*Something new here*/
+h6 {
+    padding:0;
+}
