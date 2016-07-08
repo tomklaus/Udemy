@@ -1,0 +1,86 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    background: #333;
+    color: #222;
+    font-family:Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+#container {
+    background: #fff;
+    width:500px;
+    margin:20px auto;
+    padding:20px;
+}
+h1 {
+    margin:0 0 20px;}
+p   {
+    margin:10px 0;
+}
+
+a:link {
+    color: #f42;
+    text-decoration: none;
+}
+a:visited {
+    color: #f42;
+}
+a:hover {
+    color: #a58;
+    text-decoration: underline;
+}
+a:active {
+    color: #000;
+}
+
+#link-1:hover {
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding:5px;
+}
+#link-2 {
+    background: #f42ee6;
+    color: #fff;
+    padding:5px;
+}
+#link-3:hover {
+    background: #865;
+    text-decoration: none;
+}
+
+
+/*CSS Positining*/
+.box {
+    background: #db4e4e;
+    color: #ffffff;
+    height:150px;
+    width:150px;
+    margin:20px 0;
+}
+#relative-box {
+    position: relative;
+    top: -150px;
+    right: 0;
+}
+#absolute-box {
+    position: absolute;
+    top: 20ex;
+    right:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
